@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ef095e9.css",
-    "main.js": "/static/js/main.fc799bba.js",
-    "static/media/website-haakan-snap.PNG": "/static/media/website-haakan-snap.4cc7c7170ca903c2e163.PNG",
-    "static/media/km-website-snap.png": "/static/media/km-website-snap.9bc97cd4c65500fed631.png",
-    "static/media/oneday-website-snap.PNG": "/static/media/oneday-website-snap.807dc824533051e5c337.PNG",
-    "static/media/digselv.jpg": "/static/media/digselv.ea5499a3ab36d5b68e88.jpg",
-    "static/media/icon.svg": "/static/media/icon.ae43a8626865758b4141fd790ca09f39.svg",
-    "index.html": "/index.html",
-    "main.6ef095e9.css.map": "/static/css/main.6ef095e9.css.map",
-    "main.fc799bba.js.map": "/static/js/main.fc799bba.js.map"
+    "main.css": "/react-port/static/css/main.6ef095e9.css",
+    "main.js": "/react-port/static/js/main.052e3fd1.js",
+    "static/media/website-haakan-snap.PNG": "/react-port/static/media/website-haakan-snap.4cc7c7170ca903c2e163.PNG",
+    "static/media/km-website-snap.png": "/react-port/static/media/km-website-snap.9bc97cd4c65500fed631.png",
+    "static/media/oneday-website-snap.PNG": "/react-port/static/media/oneday-website-snap.807dc824533051e5c337.PNG",
+    "static/media/digselv.jpg": "/react-port/static/media/digselv.ea5499a3ab36d5b68e88.jpg",
+    "static/media/icon.svg": "/react-port/static/media/icon.ae43a8626865758b4141fd790ca09f39.svg",
+    "index.html": "/react-port/index.html",
+    "main.6ef095e9.css.map": "/react-port/static/css/main.6ef095e9.css.map",
+    "main.052e3fd1.js.map": "/react-port/static/js/main.052e3fd1.js.map"
   },
   "entrypoints": [
     "static/css/main.6ef095e9.css",
-    "static/js/main.fc799bba.js"
+    "static/js/main.052e3fd1.js"
   ]
 }
