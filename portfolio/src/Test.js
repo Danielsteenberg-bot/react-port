@@ -1,8 +1,15 @@
 import React, { useCallback } from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+
+/* Router */
+
+
+
 import './App.css';
 import App from './App';
 import Text from './Text';
+
+
 
 
 
@@ -72,7 +79,6 @@ style={{
 <Footer />
 </ParallaxLayer>
 </Parallax>  
-
 
 )
 }
