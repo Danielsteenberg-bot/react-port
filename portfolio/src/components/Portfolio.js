@@ -5,8 +5,8 @@ import './portfolio.css';
 
 /* IMG */
 import KM from '../assets/img/km-website-snap.png' 
-import Haakan from '../assets/img/website-haakan-snap.PNG' 
-import Oneday from '../assets/img/oneday-website-snap.PNG' 
+import Haakan from '../assets/img/website-haakan-snap.png' 
+import Oneday from '../assets/img/oneday-website-snap.png' 
 
 
 /* Spring */

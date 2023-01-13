@@ -16,7 +16,7 @@
 .first-project{
     background-color: var(--green);
     width: 30vw;
-    height: 87vh;
+    height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
