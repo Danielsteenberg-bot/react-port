@@ -3,6 +3,10 @@ import React from 'react'
 
 import { useSpring, animated } from 'react-spring'
 
+import ReactIcon from './assets/React-icon.svg.png' 
+import LaraIcon from './assets/laravel.svg.png' 
+import TailwindIcon from './assets/tailwind-logo.png' 
+
 
 
 export default function CircleSkills() {
@@ -28,7 +32,7 @@ export default function CircleSkills() {
         <div className='react-animation-container'>
           <div className='outer-icon'>
                 <svg className='react-circle'><circle  cx="50%" cy="50%" r="65"/></svg>
-                    <img className='react-skill-inner' src={'/assets/icon/skill-icon/logo.svg'} alt="SUTDIGSELVSO"></img>
+                    <img className='react-skill-inner' src={ReactIcon} alt="SUTDIGSELVSO"></img>
                   <div className='icon-container'>40%</div>
               <h4 className='TXT-skills'>React</h4> 
           </div> 
@@ -39,7 +43,7 @@ export default function CircleSkills() {
         <div className='laravel-animation-container'>
           <div className='outer-icon'>
                 <svg className='laravel-circle'><circle  cx="50%" cy="50%" r="65"/></svg>
-                    <img className='laravel-skill-inner' src={'/assets/icon/skill-icon/laravel.svg.png'} alt="SUTDIGSELVSO"></img>
+                    <img className='laravel-skill-inner' src={LaraIcon} alt="SUTDIGSELVSO"></img>
                   <div className='icon-container'>25%</div>
               <h4 className='TXT-skills'>Laravel</h4> 
           </div> 
@@ -50,7 +54,7 @@ export default function CircleSkills() {
         <div className='tailwind-animation-container'>
           <div className='outer-icon'>
                 <svg className='tailwind-circle'><circle  cx="50%" cy="50%" r="65"/></svg>
-                    <img className='tailwind-skill-inner' src={'/assets/icon/skill-icon/tailwind-logo.png'} alt="SUTDIGSELVSO"></img>
+                    <img className='tailwind-skill-inner' src={TailwindIcon} alt="SUTDIGSELVSO"></img>
                   <div className='icon-container'>55%</div>
               <h4 className='TXT-skills'>Tailwind</h4> 
           </div> 

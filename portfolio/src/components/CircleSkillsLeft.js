@@ -6,6 +6,11 @@ import './circle.css'
 
 import { useSpring, animated } from 'react-spring'
 
+import HTMLIcon from './assets/html-logo.png' 
+import CSSIcon from './assets/css-logo.svg.png' 
+import JSIcon from './assets/javascript-logo.png' 
+
+
 
 
 export default function CircleSkills() {
@@ -31,7 +36,7 @@ export default function CircleSkills() {
         <div className='html-animation-container'>
           <div className='outer-icon'>
                 <svg className='HTML-circle'><circle  cx="50%" cy="50%" r="65"/></svg>
-                    <img className='html-skill-inner' src={'/assets/icon/skill-icon/html-logo.png'} alt="SUTDIGSELVSO"></img>
+                    <img className='html-skill-inner' src={HTMLIcon} alt="SUTDIGSELVSO"></img>
                   <div className='icon-container'>100%</div>
               <h4 className='TXT-skills'>HTML</h4> 
           </div> 
@@ -42,7 +47,7 @@ export default function CircleSkills() {
         <div className='css-animation-container'>
           <div className='outer-icon'>
                 <svg className='css-circle'><circle  cx="50%" cy="50%" r="65"/></svg>
-                    <img className='html-skill-inner' src={'/assets/icon/skill-icon/css-logo.svg.png'} alt="SUTDIGSELVSO"></img>
+                    <img className='html-skill-inner' src={CSSIcon} alt="SUTDIGSELVSO"></img>
                   <div className='icon-container'>75%</div>
               <h4 className='TXT-skills'>CSS</h4> 
           </div> 
@@ -53,7 +58,7 @@ export default function CircleSkills() {
         <div className='js-animation-container'>
           <div className='outer-icon'>
                 <svg className='js-circle'><circle  cx="50%" cy="50%" r="65"/></svg>
-                    <img className='js-skill-inner' src={'/assets/icon/skill-icon/javascript-logo.png'} alt="SUTDIGSELVSO"></img>
+                    <img className='js-skill-inner' src={JSIcon} alt="SUTDIGSELVSO"></img>
                   <div className='icon-container'>65%</div>
               <h4 className='TXT-skills'>JS</h4> 
           </div> 
