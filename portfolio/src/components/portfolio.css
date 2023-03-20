@@ -11,6 +11,7 @@
     display: flex;
     gap: 2rem;
     align-content: center;
+    justify-content: center;
 }
 
 .first-project{
@@ -63,18 +64,25 @@
 @media screen and (max-width: 500px){
     .project-wrapper{
         display: flex;
-        /* gap: 2rem; */
+        gap: 2rem;
         flex-direction: column;
         align-content: center;
         flex-wrap: wrap;
+
     }
 
     .first-project{
-        width: 90%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 80vh;
+        margin: 2rem;
+    }
+
+    .mobile-controller{
+        margin-top: 10rem;
+
     }
 
     .first-project button{

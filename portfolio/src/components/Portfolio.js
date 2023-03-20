@@ -26,7 +26,7 @@ export default function Portfolio() {
                     className='project-1'
                     style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                     speed={.5}>
-                <div className='first-project'>
+                <div className='first-project mobile-controller'>
                     <h6>KM-Træpleje</h6>
                     <img className='project-img' src={KM}></img>
                     <p>Kunden bad om et hjemmeside der kunne fungere som marketing og "visitkort"</p>
@@ -52,11 +52,11 @@ export default function Portfolio() {
                 
                 <ParallaxLayer
                     className='project-3'
-                    speed={.5}
+                    speed={.7}
                     style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}
                     >
 
-                <div className='first-project'>
+                <div className='first-project mobile-controller'>
                     <h6>One Day Viborg</h6>
                     <img className='project-img' src={Oneday}></img>
                     <p>Dette var et Projekt på hvor vi samarbejde med fotografer om at vise en hel dag i Viborg</p>

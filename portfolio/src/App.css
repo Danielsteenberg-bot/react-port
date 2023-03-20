@@ -244,6 +244,11 @@ margin-bottom: 2.5rem;
 
 .land-txt-container h2{
 font-size: 2.5vw;
+
+}
+
+.under-land-txt-container{
+  text-align: center;
 }
 
 .left-acordion{
